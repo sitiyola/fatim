@@ -1,0 +1,9 @@
+<?php
+include"dbsirebu.html";
+$nik_siswa=$_GET['nik_siswa'];
+$status=$_GET['status'];
+
+mysqli_query($db,
+    "UPDATE siswa SET status='Lulus' WHERE nik_siswa='$nik_siswa'");
+    header("location:ad_data.html?alert=update");
+    ?>

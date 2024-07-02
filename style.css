@@ -1,0 +1,361 @@
+body{
+    background-color: #FFFDCC; padding: 0; margin: 0;
+ }
+    .navbar {
+        overflow: hidden;
+        background-color: #0072BE;
+        font-family: Verdana;
+    
+    } .navbar a{
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 16px 24px;
+        text-decoration: none;
+    
+    } .judul_navbar ul {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    
+    } .navbtn {
+        font-family: Verdana;
+        font-size: 12px;    
+        float: right;
+        overflow: hidden;
+        font-weight: bold;
+    
+    } .active {
+        background-color: #3ABAEA;
+        color: black;
+
+    } .navbar a:hover, .navbtn:hover .toko {
+        background-color: #3ABAEA;
+        color: white;
+        transition-duration: 0.3s;
+
+    }
+    .img_dashboard {
+        margin: 5px;
+        width: 300px;
+        float: right; 
+        margin-right: 20px; 
+    
+    }  .dashboard{
+        position: relative; 
+        left: 80px; 
+        top: 130px; 
+        width: 55%; 
+        font-size:50px; 
+        font-family: Verdana; 
+        font-weight: bold;
+        color: black; 
+        margin: 5px; 
+        margin-top:25px; 
+        margin-bottom:25px; 
+        padding-bottom:30px"
+    } .judul{
+        font-size:80px; 
+        color: black;
+        font-family: Verdana;
+        font-weight: bold;
+        text-align:center;
+        position: relative; 
+        width: 80%;
+        left: 135px;
+        top: 15%; 
+    } .prgf{
+        position: relative;
+        text-align: center;
+        top:40px;
+        left:300px;
+        width: 50%; 
+        font-size:16px; 
+        font-family: Verdana; 
+        color:black; 
+        padding: 20px;
+
+    } .judul{
+        font-size:40px; 
+        color: black;
+        font-family: Verdana;
+        font-weight: bold;
+        text-align:center;
+        position: relative; 
+        width: 80%;
+        left: 135px;
+        top: 40px; 
+    
+    } .sub_judul{
+        font-size:30px; 
+        color: black;
+        font-family: Verdana;
+        font-weight: bold;
+        text-align:left;
+        position: relative; 
+        width: 80%;
+        left: 124px;
+        top: 50px; 
+    
+    } .table_pendaftaran{
+        position: relative;
+        width:80%;
+        height: 20px;
+        padding: 16px 28px 32px 16px;
+        margin: 60px auto;
+        margin-bottom: 10px;
+        border-color: #003C80; 
+        background-color: #3ABAEA;
+        border-style: solid;
+        border-width: 4px;
+    
+    } .label_pendaftaran{
+        font-family: Verdana;
+        font-weight:bold;
+        color:white;
+        font-size:16px;
+        width:40%;
+        padding: 12px 0px 6px;
+
+    } .isian_pendaftaran{
+        font-family: Verdana;
+        font-size:16px;
+        text-decoration: none;
+        background-color:white;
+        border-style: solid;
+        border-width: 1px;
+        padding: 7px 74px 7px 10px;
+        margin-bottom: 20px;
+        resize:vertical;
+        width: 80%; 
+        
+    } .upload_pendaftaran{
+        font-family: Verdana;
+        font-size:16px;
+        text-decoration: none;
+        background-color:white;
+        border-style: solid;
+        border-width: 1px;
+        padding: 7px 74px 7px 10px;
+        margin-bottom: 20px;
+        resize:vertical;
+        width: 80%; 
+        
+    } .radio_pendaftaran{
+        font-family: Verdana;
+        font-weight:bold;
+        font-size:16px;
+        color: white;
+        position: relative;
+        bottom: 10px;
+
+    } .kembali_pendaftaran{
+        font-family:Verdana;
+        font-weight: bold;
+        position: relative;
+        cursor: pointer;
+        font-size: 12px;
+        background-color: #003C80;
+        color: white;
+        padding: 10px 20px;
+        border-color: #5C2215;
+        border-radius:10px; 
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        
+    } .kembali_pendaftaran:hover {
+        background-color: #96EDFB;
+        color: black; 
+    
+    } .simpan_pendaftaran{
+        font-family:Verdana;
+        font-weight: bold;
+        position: relative;
+        cursor: pointer;
+        font-size: 12px;
+        background-color: #228c22;
+        color: white;
+        padding: 9px 20px;
+        margin-left: 10px;
+        border-color: #228c22;
+        border-radius:10px; 
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        
+    } .simpan_pendaftaran:hover{
+        background-color: #C1FCAC; 
+        color: white;
+        border-color: #C1FCAC;
+
+    } .table_login{
+        border-style: solid;
+        border-radius:10px;
+        border-width: 4px;
+        border-color: #003C80; 
+        background-color: #3ABAEA;
+        width: 250px;
+        height: 250px;
+        padding: 20px;
+        margin: 100px auto;
+        color:#5C2215;
+
+    } .judul_login{
+        overflow: hidden;
+        background-color: #0072BE;
+        font-family: Verdana;
+        font-weight:bold;
+        color:white; 
+        padding:10px; 
+        text-align: center ;
+        position: center;
+        top: 150px; 
+        font-size: 30px; 
+        
+    }.gambar_login{
+        position:absolute;
+        top:184px;
+        left:510px;
+        width:60px;
+        border-radius:30px;
+    }.submit_login{
+        position:relative;
+        bottom:8px;
+        background-color: #228c22;
+        border: none;
+        color: white;
+        width:80px;
+        height: 30px;
+        padding: 4px 8px;
+        text-decoration: none;
+        margin: 4px 12px;
+        cursor: pointer;
+        border-radius: 4px;
+        transition-duration: 0.2s;
+        font-family: Verdana;   
+        font-size:14px;
+    }
+    .submit_login:hover {
+       
+        background-color: #C1FCAC; 
+
+    }
+    .kembali_login{
+        position:relative;
+        bottom:8px;
+        background-color: #003C80;
+        border: none;
+        color: white;
+        width:80px;
+        height: 30px;
+        padding: 8px 16px;
+        text-decoration: none;
+        margin: 4px 12px;
+        cursor: pointer;
+        border-radius: 4px;
+        font-family: Verdana; 
+        font-size:14px;
+    
+    } .kembali_login:hover {
+        background-color: #96EDFB;   
+        color: white;
+
+    } .label_login{
+        font-family: Verdana; 
+        font-size:16px; 
+        position:relative; 
+        color:white;
+        bottom:8px;
+    
+    } .input_login{
+        position:relative;
+        bottom:2px;
+        background-color:white;
+        border-color: #003C80;
+        margin:4px;
+
+    } .table_data{
+        position: relative;
+        width:90%;
+        height: 20px;
+        margin: 60px auto;
+        margin-bottom: 10px;
+        background-color: #3ABAEA;
+
+    } .tombol_data {
+        font-family:Verdana;
+        font-weight: bold;
+        position: relative;
+        cursor: pointer;
+        font-size: 12px;
+        background-color: #003C80;
+        color: white;
+        padding: 8px 22px;
+        border-color: #003C80;
+        border-radius:10px; 
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: auto;
+        width: 50%;
+        
+    } .tombol_data:hover{
+        background-color: #96EDFB;   
+        color: white;
+
+    }  .table_detail_data{
+        position: relative;
+        height: 20px;
+        margin: 100% auto;
+        margin-top: 80px;
+        margin-bottom: 10px;
+        background-color: #3ABAEA;  
+
+    } .kembali_detail_data {
+        font-family:Verdana;
+        font-weight: bold;
+        position: relative;
+        cursor: pointer;
+        font-size: 12px;
+        background-color: #003C80;
+        color: white;
+        padding: 12px 28px;
+        border-color: #003C80;
+        border-radius:10px; 
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        left:41%;
+        margin: 12px 0px 30px 0px ;
+        
+    } .kembali_detail_data:hover{
+        background-color: #96EDFB;   
+        color: white;
+
+    } .print_button {
+        font-family:Verdana;
+        font-weight: bold;
+        position: relative;
+        cursor: pointer;
+        font-size: 12px;
+        background-color: #003C80;
+        color: white;
+        padding: 10px 24px;
+        border-color: #003C80;
+        border-radius:10px; 
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        left:43%;
+        margin: 10px 0px 30px 0px ;
+        
+    } .print_button:hover{
+        background-color: #96EDFB;   
+        color: white;
+        border-color: #96EDFB;
+        box-shadow: none;
+    }
